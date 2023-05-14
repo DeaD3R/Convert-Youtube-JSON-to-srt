@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subtitle Converter</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	textarea {
+		width: 40%;
+		height: 80vh;
+	}
+	</style>
+</head>
+<body>
+	<h1>Subtitle Converter</h1>
+	<textarea id="input" placeholder="Paste your JSON subtitles here..."></textarea>
+	<textarea id="output" placeholder="Output will appear here..."></textarea>
+	<button onclick="convertToSrt()">Convert to SRT</button>
+	<button onclick="downloadSrt()">Download SRT</button>
+  <script src="script.js"></script>
+</body>
+</html>
